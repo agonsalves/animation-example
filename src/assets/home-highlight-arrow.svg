@@ -1,0 +1,18 @@
+
+<svg width="38px" height="9px" viewBox="0 0 38 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M30.9066667,-6.51512097e-16 L38,4.5 L30.9066667,9 L30.906,5.5 L-1.13686838e-13,5.5 L-1.13686838e-13,3.5 L30.906,3.5 L30.9066667,-6.51512097e-16 Z"
+              id="path-1" />
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Arrow/Right">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1" />
+            </mask>
+            <use id="Combined-Shape" fill="#222222" xlink:href="#path-1" />
+        </g>
+    </g>
+</svg>

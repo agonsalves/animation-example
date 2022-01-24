@@ -1,0 +1,72 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 100%;
+    image-rendering: -webkit-optimize-contrast;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0.1s;
+    font-family: 'GT America', sans-serif;
+}
+
+* {
+    outline: none;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-style: none;
+}
+
+p {
+    margin-top: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: #0686F3;
+}
+
+a:hover {
+    color: #056bc1;
+}
+
+input::-ms-clear{
+    display: none!important;
+}
+
+@media all and (-ms-high-contrast:none), all and (-ms-high-contrast:active) {
+    html {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    body {
+        overflow: auto;
+        height: 100%;
+    }
+}
